@@ -104,10 +104,7 @@ body.gallery {
 }
 
 #gsHeaderText {
-	/* padding: 30px 10px 30px 10px; */
-	position: absolute;
-	top: 30px;
-	left: 80px;
+	padding: 0 10px 20px;
 	font-size: 1.8em;
 	font-weight: bold;
 }
@@ -538,13 +535,19 @@ div.gbNavigator div.next-and-last img {
   padding: 0 0.5em 0 0;
 }
 
+div.block-search-SearchBlock {
+  display: none;
+}
+
 div.block-search-SearchBlock a.advanced {
   display: block;
   padding: 3px;
 }
 
+/* hide 'slideshow' link */
 div.block-core-ItemLinks {
   margin: 3px 0;
+  display: none;
 }
 div.block-core-ItemLinks a {
   padding: 3px;
@@ -603,6 +606,7 @@ div.block-core-GuestPreview {
 }
 
 span.block-core-SystemLink {
+  display: none;
 }
 
 div.block-exif-ExifInfo {
@@ -641,6 +645,11 @@ td.bsw_BlockCommands {
 
 #gsFooter {
   padding-top: 4px;
+}
+
+/* hide Gallery2 link */
+#gsFooter a {
+  display: none;
 }
 
 /* ********************************************************************************
