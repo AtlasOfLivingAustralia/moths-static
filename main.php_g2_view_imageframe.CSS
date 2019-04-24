@@ -1,0 +1,4 @@
+img.ImageFrame_image { vertical-align:bottom; border:none; }
+img.ImageFrame_none { border-style: none }
+td div.H { width:1px; height:0; }
+td div.V { width:0; height:1px; }
