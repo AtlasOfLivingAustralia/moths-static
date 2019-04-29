@@ -109,6 +109,14 @@ body.gallery {
 	font-weight: bold;
 }
 
+#amoMessage {
+  padding: 0 10px 10px;
+}
+
+code {
+  font-size: medium;
+}
+
 #gsNavBar {
     border-top-width: 1px;
     border-bottom-width: 1px;
